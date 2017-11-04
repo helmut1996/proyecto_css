@@ -4,6 +4,9 @@ import homepage from './homepage'
 import contacto from './contacto'
 import acercade from './acercade'
 import Productos from './Productos'
+import Login from './Login/login'
+require('./listaP')
+
 
 const main = document.querySelector('main')
 
@@ -21,4 +24,8 @@ page('/acercade', () => {
 
 page('/Productos', () => {
 	main.innerHTML = layout(Productos)
+})
+
+page('/Login', () => {
+	main.innerHTML = layout(Login)
 })
