@@ -7,7 +7,6 @@ import Productos from './Productos'
 import Login from './Login/login'
 require('./listaP')
 
-
 const main = document.querySelector('main')
 
 page('/', () => {
@@ -26,6 +25,7 @@ page('/Productos', () => {
 	main.innerHTML = layout(Productos)
 })
 
+<<<<<<< HEAD
 page('/Login', () => {
 	main.innerHTML = layout(Login)
 })
